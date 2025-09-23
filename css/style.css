@@ -127,7 +127,7 @@ nav ul li a {
   color: #333;
 }
 
-body {
+{
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
   margin: 0;
@@ -181,22 +181,12 @@ h1 {
   color: #555;
 }
 
-
 {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
   background: #fff;
   color: #333;
   text-align: center;
   line-height: 1.6;
 }
-
-/* ================= Chef Section ================= */
 .chef {
   display: flex;
   justify-content: center;
@@ -252,7 +242,6 @@ body {
   border-radius: 15px;
 }
 
-/* ================= Instagram Section ================= */
 .instagram {
   text-align: center;
   padding: 80px 20px;
@@ -305,11 +294,7 @@ body {
   transform: scale(1.05);
 }
 
-      font-family: Arial, sans-serif;
-      background: #fff;
-      margin: 0;
-      padding: 20px;
-    }
+     
 
     h1 {
       text-align: center;
@@ -376,3 +361,203 @@ body {
     .card-wrapper {
       position: relative;
     }
+
+    .caixa-final {
+  text-align: center;
+  background-color: #e8f9fd;
+  padding: 60px 20px;
+  border-radius: 20px;
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.caixa-final h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+.caixa-final p {
+  font-size: 1rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+}
+
+.caixa-final form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.caixa-final input[type="email"] {
+  padding: 12px 18px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  width: 280px;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.caixa-final input[type="email"]:focus {
+  border-color: #000;
+}
+
+.caixa-final button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.caixa-final button:hover {
+  background-color: #333;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px 20px;
+  background: #fff;
+  border-top: 1px solid #eee;
+  max-width: 1200px;
+  margin: 40px auto 0;
+}
+
+.footer-left {
+  flex: 1 1 250px;
+}
+
+.footer-left h3 {
+  font-family: 'Georgia', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-left p {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  flex: 1 1 250px;
+  justify-content: center;
+  gap: 25px;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-links li a:hover {
+  color: #ff4b4b;
+}
+
+.footer-Redes {
+  display: flex;
+  gap: 15px;
+  font-size: 1.4rem;
+}
+
+.footer-Redes a {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+.footer-Redes a:hover {
+  color: #ff4b4b;
+}
+
+.footer-final {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #999;
+}
+@media (max-width: 992px) {
+  .caixa-final {
+    padding: 50px 15px;
+  }
+
+  .caixa-final h2 {
+    font-size: 1.7rem;
+  }
+
+  .caixa-final p {
+    font-size: 0.95rem;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .footer-links {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .footer-Redes {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .caixa-final {
+    padding: 40px 10px;
+  }
+
+  .caixa-final h2 {
+    font-size: 1.4rem;
+  }
+
+  .caixa-final p {
+    font-size: 0.9rem;
+  }
+
+  .caixa-final form {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .caixa-final input[type="email"] {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .caixa-final button {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .footer-Redes {
+    font-size: 1.2rem;
+  }
+}
