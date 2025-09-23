@@ -181,12 +181,7 @@ h1 {
   color: #555;
 }
 
-{
-  background: #fff;
-  color: #333;
-  text-align: center;
-  line-height: 1.6;
-}
+
 .chef {
   display: flex;
   justify-content: center;
